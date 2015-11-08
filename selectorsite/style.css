@@ -1,0 +1,43 @@
+* { padding: 0; margin: 0; } 
+body { 
+    background-image: url(./files/backfarmclear.png); 
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: 'BloggerSansRegular', sans-serif;
+    font-size: 1em; padding: 0; margin: 0; }
+a { color: #990099; text-decoration: none;}
+a:hover { color: #555; text-decoration: none;}
+li { color: #036DA7; list-style-type: none; margin-bottom: 6px; }
+h2 { margin-bottom: .7em;}
+h3 { color: #333333;}
+
+.navbar { height: 60px; background: #222; margin: 0 auto 0 auto;  width:950px;}
+.navbar * {display: inline;}
+#homelink {position:relative; top:24px; padding:30px}
+.navbar a { color: #fff; text-decoration: none;}
+.navbar ul {position:relative; top:24px;text-align:right; float:right;padding-right:15px}
+.navbar li {display:inline; padding: 15px; vertical-align:middle;}
+
+.contentwindow {
+    background-color: rgba(255,255,255,0.50);
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    position: relative;
+    left: 10%;
+    padding: 1% 2%;
+}
+
+#headshot {float:left; margin: 0 15px 15px 0;}
+#About {clear:left;}
+#welcome {
+    background-color: rgba(0,0,0,0.55);
+    height: 248px;
+    color: #eeeeee;
+    margin-bottom: 8%;
+}
+#welcome h2 {
+    padding-top: 5%;
+}
