@@ -6,6 +6,7 @@ All:
 production:
 	cp index.html index.html.bak
 	cat ./templates/header.html > index.html
+	cat ./posts/post12.html >> index.html
 	cat ./posts/post11.html >> index.html
 	cat ./posts/post10.html >> index.html
 	cat ./posts/post9.html >> index.html
@@ -21,6 +22,7 @@ production:
 
 productionscrap:
 	cat ./templates/header.html > index.html
+	cat ./posts/post12.html >> index.html
 	cat ./posts/post11.html >> index.html
 	cat ./posts/post10.html >> index.html
 	cat ./posts/post9.html >> index.html
