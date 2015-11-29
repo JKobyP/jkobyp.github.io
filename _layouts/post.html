@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<h2 id="{{page.title}}">{{page.title}}<span class="post-span">- by {{page.author}}
+        from {{page.date | date: "%-d %B %Y"}}</span></h2>
+<img src="/assets/{{page.image}}" height="380px" width="640px" class="post-img"
+    title="{{page.image-description}}"/>
+{{content}}

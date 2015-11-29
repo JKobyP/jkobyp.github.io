@@ -1,6 +1,28 @@
-<html>
-    <head>
-        <meta http-equiv="refresh" content="0;
+---
+layout: default
+---
+  <!--
+      <meta http-equiv="refresh" content="0;
         url=http://jkobyp.github.io/selectorsite" />
-    </head>
-</html>
+        -->
+    <h1> My name is Koby Picker and this is my blog </h1>
+
+   <ul>
+       <br>
+  {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">
+            <img src="/assets/{{post.image}}" height="148px" 
+                                              style="float:left; padding-right:
+                                              10px" 
+                                              width="268px"/>
+            <span style="font-size:1.1em;">
+            {{post.excerpt}}... <u>read more</u>
+            </span>
+            <h2 style="clear:left">{{ post.title }}</h2>
+            <br>
+            <br>
+        </a>
+    </li>
+  {% endfor %}
+   </ul>
