@@ -12,10 +12,12 @@ layout: default
   {% for post in site.posts %}
     <li>
         <a href="{{ post.url }}">
+            {% if post.image %}
             <img src="/assets/{{post.image}}" height="148px" 
                                               style="float:left; padding-right:
                                               10px" 
                                               width="268px"/>
+            {% endif %}
             <span style="font-size:1.1em;">
             {{post.excerpt}}... <u>read more</u>
             </span>
