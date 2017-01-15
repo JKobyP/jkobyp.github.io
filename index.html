@@ -5,26 +5,28 @@ layout: default
       <meta http-equiv="refresh" content="0;
         url=http://jkobyp.github.io/selectorsite" />
         -->
-    <h1> My name is Koby Picker and this is my blog </h1>
-
-   <ul>
-       <br>
-  {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">
-            {% if post.image %}
-            <img src="/assets/{{post.image}}" height="148px" 
-                                              style="float:left; padding-right:
-                                              10px" 
-                                              width="268px"/>
-            {% endif %}
-            <span style="font-size:1.1em;">
-            {{post.excerpt}}... <u>read more</u>
-            </span>
-            <h2 style="clear:left">{{ post.title }}</h2>
+        <h1> My name is Koby Picker and this is my website </h1>
+        <br>
+        <div style="margin-right: 50%">
+            I'm a BS/MS student at Case Western Reserve University, and I'm
+            interested in <b>hacker history and culture, Chinese literature and 
+                film, and programming languages. </b>
             <br>
             <br>
-        </a>
-    </li>
-  {% endfor %}
-   </ul>
+            Now that you're here, feel free to
+            check out
+            <ul style="text-indent: 50px">
+                <li>
+            <a href="/blog.html">my travel blog,</a>
+                </li>
+                <li>
+                    <a href="/recs.html">a list of my favorite things,</a>
+                </li>
+                <li>
+                    <a href="/talks.html">some talks I've given, or</a>
+                </li>
+                <li>
+                    <a href="/me.html"> more about me.</a>
+                </li>
+            </ul>
+        </div>
