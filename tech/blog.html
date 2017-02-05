@@ -10,10 +10,11 @@ layout: default
    <ul>
        <br>
   {% for post in site.posts %}
+  {% if post.category contains tech %}
     <li>
-        <a href="{{ post.url }}">
+        <a href="{{ post.url }}" style="text-decoration: none">
             {% if post.image %}
-            <img src="/assets/{{post.image}}" height="148px" 
+            <img src="images/{{post.image}}" height="148px" 
                                               style="float:left; padding-right:
                                               10px" 
                                               width="268px"/>
@@ -26,5 +27,6 @@ layout: default
             <br>
         </a>
     </li>
+    {% endif %}
   {% endfor %}
    </ul>

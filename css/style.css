@@ -2,12 +2,12 @@
 html { height: 100%;}
 body { background: #ede;
        font-family: 'BloggerSansRegular', sans-serif;
-       font-size: .90em;
+       font-size: 1.1em;
        padding: 0; margin: 0;
        height: 100%;
      }
 img { border: none;}
-a { color: #777; text-decoration: none;}
+a { color: #777; text-decoration: underline;}
 a:hover { color: #555; text-decoration: none;}
 ul li { color: #696; list-style-type: none; margin-bottom: 6px; }
 ol {margin: 1em 0 1em 1.8em; color:#555}
@@ -24,11 +24,11 @@ hr {margin: 1.8em;}
 #content { margin-left: 20px; margin-right: auto; 
            text-align: justify; max-width: 628;
            color: #565; }
-#content h2 { color: #454; font-size: 1.4em; font-weight: 200;}
+#content h2 { color: #454; font-size: 1.4em; margin-bottom: 0.2em; font-weight: 200;}
 #content p { margin: 10px 0 20px 0; line-height: 25px;}
 #content ol {margin: 1em 1 1em 1.8em; line-height: 20px;}
-
 #content ol li {margin: 5px;}
+
 #footer { clear: both; color: #888; background: #fcf; 
           text-align: left; margin: 20px 0px 0px 0px; 
           padding: 25px 20px; font-size: .9em;
