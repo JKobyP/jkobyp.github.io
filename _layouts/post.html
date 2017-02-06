@@ -2,14 +2,15 @@
 layout: default
 ---
 
+{% if page.category contains 'travel' %}
 <h2 id="{{page.title}}">{{page.title}}<span class="post-span">- by {{page.author}}
         from {{page.date | date: "%-d %B %Y"}}</span></h2>
-{% if page.category contains 'travel' %}
 <img src="/travel/images/{{page.image}}" height="380px" width="640px" class="post-img"
     title="{{page.image-description}}"/>
 {% else %}
-<img src="/assets/{{page.image}}" height="380px" width="640px" class="post-img"
-    title="{{page.image-description}}"/>
+
+<h2> {{page.date | date: "%-d %B %Y"}} </h2>
+
 {% endif %}
 
 {{content}}

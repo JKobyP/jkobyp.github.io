@@ -10,22 +10,12 @@ layout: default
    <ul>
        <br>
   {% for post in site.posts %}
-  {% if post.category contains tech %}
+  {% if post.category contains 'tech' %}
     <li>
-        <a href="{{ post.url }}" style="text-decoration: none">
-            {% if post.image %}
-            <img src="images/{{post.image}}" height="148px" 
-                                              style="float:left; padding-right:
-                                              10px" 
-                                              width="268px"/>
-            {% endif %}
-            <span style="font-size:1.1em;">
-            {{post.excerpt}}... <u>read more</u>
-            </span>
-            <h2 style="clear:left">{{ post.title }}</h2>
+        <h3 ><a style="text-decoration: none" href="{{post.url}}"> {{post.date | date: "%-d %B %Y"}}</a> </h3>
+            {{post.content}}
             <br>
             <br>
-        </a>
     </li>
     {% endif %}
   {% endfor %}
