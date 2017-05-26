@@ -10,13 +10,21 @@ layout: default
    <ul>
        <br>
   {% for post in site.posts %}
-  {% if post.category contains 'tech' %}
+    {% if post.category contains 'tech' %}
+      {% if post.category contains 'article' %}
     <li>
-        <h3 ><a style="text-decoration: none" href="{{post.url}}"> {{post.date | date: "%-d %B %Y"}}</a> </h3>
+        <h3 ><a style="text-decoration: none" href="{{post.url}}">Article: {{post.title}}</a> </h3>
+            <br>
+            <br>
+    </li>
+      {% else %}
+    <li>
+        <h3 ><a style="text-decoration: none" href="{{post.url}}">{{post.date | date: "%-d %B %Y"}}</a> </h3>
             {{post.content}}
             <br>
             <br>
     </li>
+      {% endif %}
     {% endif %}
   {% endfor %}
    </ul>
