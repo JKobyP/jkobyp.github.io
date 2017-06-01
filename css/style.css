@@ -24,7 +24,7 @@ hr {margin: 1.8em;}
 #content { margin-left: 20px; margin-right: auto; 
            text-align: justify; max-width: 628;
            color: #565; }
-#content h2 { color: #454; font-size: 1.4em; margin-bottom: 0.2em; font-weight: 200;}
+#content h2 { color: #454; font-size: 1.4em; margin-bottom: 0.2em; margin-top: 1.5em; font-weight: 200;}
 #content p { margin: 10px 0 20px 0; line-height: 25px;}
 #content ol {margin: 1em 1 1em 1.8em; line-height: 20px;}
 #content ol li {margin: 5px;}
