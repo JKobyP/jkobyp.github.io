@@ -5,15 +5,14 @@ layout: default
       <meta http-equiv="refresh" content="0;
         url=http://jkobyp.github.io/selectorsite" />
         -->
-    <h1> My name is Koby Picker and this is my blog </h1>
-
+    <h2 class="center"> blog </h2>
    <ul>
-       <br>
   {% for post in site.posts %}
     {% if post.category contains 'tech' %}
       {% if post.category contains 'article' %}
     <li>
         <h3 ><a style="text-decoration: none" href="{{post.url}}">Article: {{post.title}}</a> </h3>
+        {{post.description}}
             <br>
             <br>
     </li>

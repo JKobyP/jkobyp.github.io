@@ -1,6 +1,8 @@
 ---
 layout: article
 category: tech,article
+description: "In which I learn some brand new things, and uncloak the shroud of
+uncertainty that used to surround them."
 ---
 
 # My First Web Server
