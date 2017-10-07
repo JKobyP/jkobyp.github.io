@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Blogger Sans";
+    src: url("Blogger_Sans.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Blogger Sans";
+    font-weight: bold;
+    src: url("Blogger_Sans-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Blogger Sans";
+    font-style: italic;
+    src: url("Blogger_Sans-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Blogger Sans";
+    font-weight: bold;
+    font-style: italic;
+    src: url("Blogger_Sans-Bold_Italic.otf") format("opentype");
+}
