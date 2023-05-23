@@ -55,7 +55,7 @@ h1 {font-size: 1.5em;font-weight: 600;margin-top: 1.5em;color: #4C2D4C;}
 .col {
     width: 50%;
 }
-.event .col {
+#event .col {
     width: 75%;
 }
 .col.col-left {
